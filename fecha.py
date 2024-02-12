@@ -3,7 +3,7 @@ class Fecha():
         self._dia=0
         self._mes=0
         self._año=0
-        self._comprobar
+
     def modificar_dia(self, dia):
         Fecha._comprobar_dia(dia)
         self._dia = dia
@@ -12,7 +12,7 @@ class Fecha():
         Fecha._comprobar_mes()
         self._mes = mes
 
-    def modificar_año(self, año)
+    def modificar_año(self, año):
         self._año = año
 
     def modificar_fecha(self, año, mes, dia):
@@ -47,8 +47,8 @@ class Fecha():
         return self._año
     
     def __str__(self) -> str:
-        return str(self._dia) + "-" + str(self._mes) + "-" str(self.año)
+        return str(self._dia) + "-" + str(self._mes) + "-" + str(self._año)
     
 f1 = Fecha()
-f1.modificar_fecha(2024, 2, 12)
+f1.modificar_fecha(2024, 2, 13)
 print (f1)

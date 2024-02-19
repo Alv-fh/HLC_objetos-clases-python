@@ -34,6 +34,3 @@ bombilla=Bombilla()
 for i in range(1005):
     bombilla.encender()
     bombilla.apagar()
-
-for i in range(5):
-    bombilla.apagar()

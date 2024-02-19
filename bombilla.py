@@ -4,7 +4,7 @@ class Bombilla():
         self._fundida = False
         self._contador = int(0)
     def encender(self):
-        if self._contador <= 1000:
+        if self._contador >= 1000:
                 print ("La bombilla se ha fundido")
         else:
             if self._encendida == True:
